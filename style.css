@@ -356,7 +356,9 @@ article .icon {
 .article-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adjust as needed */
+  /*justify-content: space-between;*/ /* Adjust as needed */
+  justify-content: center;
+  align-items: center;
 }
 
 .article-container article {
@@ -383,6 +385,7 @@ article .icon {
 #projects {
   position: relative;
   margin-top: 400px;
+  
 }
 
 .color-container {
@@ -392,8 +395,9 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 70%;
+  
 }
 
 .project-title {
