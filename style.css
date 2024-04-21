@@ -333,7 +333,7 @@ section {
   flex-direction: column;
 }
 
-.article-container {
+/*.article-container {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
@@ -351,12 +351,38 @@ article {
 
 article .icon {
   cursor: default;
+}*/
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.article-container article {
+  flex: 0 0 calc(50% - 10px); /* Adjust for desired column layout */
+  margin-bottom: 20px; /* Adjust spacing between articles */
+}
+
+.article-container article .icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+.article-container article h3 {
+  margin: 0;
+}
+
+.article-container article p {
+  margin: 5px 0;
 }
 
 /* PROJECTS SECTION */
 
 #projects {
   position: relative;
+  margin-top: 400px;
 }
 
 .color-container {
