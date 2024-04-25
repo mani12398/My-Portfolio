@@ -463,3 +463,44 @@ footer p {
   cursor: pointer;
   font-weight: 600;
 }
+/* Resetting default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensuring full viewport coverage */
+html, body, #root {
+  height: 100%;
+}
+
+/* Removing margin and padding from footer */
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure sections fill the viewport height */
+section {
+  min-height: 100vh;
+}
+
+/* Remove default list styles from nav links */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Additional styling for nav links if needed */
+nav ul li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+/* Adjustments for footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Change as per your design */
+}
