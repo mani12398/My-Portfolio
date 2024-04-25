@@ -109,4 +109,14 @@
     margin-top: 0px;
   }
 
+  
+
+}
+
+@media (max-width: 14in) {
+  /* Adjust styles for 14-inch screens */
+  /* For example, reduce padding or margin */
+  body {
+      padding-bottom: 0; /* Example adjustment */
+  }
 }
