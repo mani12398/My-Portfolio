@@ -154,6 +154,7 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  padding-bottom: 20px;
 }
 
 .section-container {
@@ -467,6 +468,7 @@ footer p {
 body, html {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 /* Ensuring full viewport coverage */
@@ -474,33 +476,12 @@ html, body, #root {
   height: 100%;
 }
 
-/* Removing margin and padding from footer */
-footer {
-  margin: 0;
-  padding: 0;
-}
-
-/* Ensure sections fill the viewport height */
-section {
-  min-height: 100vh;
-}
-
-/* Remove default list styles from nav links */
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Additional styling for nav links if needed */
-nav ul li {
-  display: inline-block;
-  margin-right: 20px; /* Adjust as needed */
-}
-
 /* Adjustments for footer */
 footer {
-  text-align: center;
+  position: static; /* Position the footer at the bottom of the viewport */
+  bottom: 0;
+  width: 100%;
+  background-color: #f0f0f0;
   padding: 20px;
-  background-color: #f0f0f0; /* Change as per your design */
+  text-align: center;
 }
